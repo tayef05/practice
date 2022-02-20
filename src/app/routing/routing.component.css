@@ -1,0 +1,17 @@
+.nav {
+  display: inline;
+}
+.nav-bar {
+  display: inline;
+  list-style: none;
+}
+
+.nav-link {
+  color: dodgerblue;
+  text-decoration: none;
+  font-size: 18px;
+}
+.nav-list {
+  display: inline;
+  padding: 8px;
+}

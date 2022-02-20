@@ -1,0 +1,2 @@
+<p class="messageReceiver" *ngIf="message.length > 0">{{ message }}</p>
+<app-child (messageEvent)="receivedMessage($event)"></app-child>

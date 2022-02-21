@@ -1,0 +1,43 @@
+.logInForm {
+  padding: 30px 20px;
+}
+.labelForm {
+  font-size: 20px;
+  color: #673ab7;
+  display: block;
+}
+.inputForm {
+  color: #673ab7;
+  display: block;
+  padding: 5px 8px;
+  font-size: 20px;
+  margin: 10px;
+  margin-left: 0;
+  border-radius: 5px;
+  border: #673ab7 1px solid;
+}
+.inputForm::placeholder {
+  /* Chrome, Firefox, Opera, Safari 10.1+ */
+  color: #673ab7;
+  opacity: 1; /* Firefox */
+}
+.containerFirst {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.logInForm {
+  background: #9cdfff;
+  border-radius: 20px;
+}
+.btn {
+  padding: 10px;
+  border-radius: 5px;
+  border: none;
+  background: #673ab7;
+  margin: 0 auto;
+  color: #dfdbff;
+  display: block;
+  font-weight: 600;
+  font-size: 17px;
+}

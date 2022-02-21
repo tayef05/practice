@@ -1,0 +1,29 @@
+<div class="containerFirst">
+  <div class="containerSecond">
+    <form
+      class="logInForm"
+      #login="ngForm"
+      (ngSubmit)="userSubmit(login.value)"
+    >
+      <label class="labelForm" for="name">Name</label>
+      <input
+        class="inputForm"
+        type="text"
+        placeholder="Name"
+        name="name"
+        id="full_name"
+        ngModel
+      />
+      <label class="labelForm" for="password">Password</label>
+      <input
+        class="inputForm"
+        type="password"
+        placeholder="Password"
+        name="current-password"
+        id="current-password"
+        ngModel
+      />
+      <input class="btn" type="submit" />
+    </form>
+  </div>
+</div>

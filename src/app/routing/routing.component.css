@@ -1,9 +1,7 @@
-.nav {
-  display: inline;
-}
 .nav-bar {
   display: inline;
   list-style: none;
+  padding: 0;
 }
 
 .nav-link {
@@ -14,4 +12,8 @@
 .nav-list {
   display: inline;
   padding: 8px;
+}
+.nav {
+  display: block;
+  padding: 10px 0;
 }

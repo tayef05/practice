@@ -1,0 +1,31 @@
+.labels {
+  padding-right: 20px;
+  display: block;
+}
+.inputs {
+  display: block;
+  padding: 6px 6px;
+  border-radius: 5px;
+  border: solid 1px #009688;
+  color: #009688;
+  margin: 10px 0px;
+  width: 220px;
+}
+.btn {
+  padding: 10px;
+  border-radius: 5px;
+  border: none;
+  background: #5cffff;
+  margin: 0 auto;
+  color: #4c4c4c;
+  display: block;
+  font-weight: 600;
+  font-size: 17px;
+}
+.disabled {
+  opacity: 0.5;
+}
+.labels {
+  color: #009688;
+  font-size: 18px;
+}

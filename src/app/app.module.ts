@@ -1,8 +1,9 @@
 import { NgModule } from '@angular/core';
-import { FormsModule } from '@angular/forms';
+import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 import { BrowserModule } from '@angular/platform-browser';
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
+import { FormationComponent } from './formation/formation.component';
 import { GrandchildComponent } from './grandparent/grandchild/grandchild.component';
 import { GrandparentComponent } from './grandparent/grandparent.component';
 import { HomeComponent } from './home/home.component';
@@ -23,8 +24,9 @@ import { RoutingComponent } from './routing/routing.component';
     HomeComponent,
     PagenotfoundComponent,
     LoginComponent,
+    FormationComponent,
   ],
-  imports: [BrowserModule, AppRoutingModule, FormsModule],
+  imports: [BrowserModule, AppRoutingModule, FormsModule, ReactiveFormsModule],
   providers: [],
   bootstrap: [AppComponent],
 })
